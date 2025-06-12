@@ -7,12 +7,15 @@
 </head>
 <body>
   <main class="container">
-    <nav class="nav-links">
-      <a href="about/about.html">About Me</a>
-      <a href="notes/notes.html">Study Notes</a>
-      <a href="pitfalls/pitfalls.html">Pitfalls & Fixes</a>
-      <a href="projects/projects.html">Projects</a>
-    </nav>
+  <div id="navbar-placeholder"></div>
+
+  <script>
+    fetch('../assets/nav.html')
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById('navbar-placeholder').innerHTML = html;
+      });
+  </script>
 
     <h1>Hi, I'm Audrey. </h1>
 
