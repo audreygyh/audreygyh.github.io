@@ -59,8 +59,8 @@ p {
 /* 导航条样式 */
 .navbar {
   text-align: center;
-  margin-top: 40px; /* 离页面顶部一定距离 */
-  margin-bottom: 30px;
+  margin-top: 30px; /* 离页面顶部一定距离 */
+  margin-bottom: 20px;
 }
 
 .navbar ul {
