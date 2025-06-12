@@ -45,22 +45,42 @@ p {
   color: white;
 }
 
+/* 导航条样式 */
 .navbar {
-  position: sticky;
-  top: 0;
-  background-color: #ffffff;
-  padding: 1em;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  z-index: 1000;
+  margin-top: 40px; /* 离页面顶部一定距离 */
+  margin-bottom: 30px;
 }
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+  background: #ffe6f0;
+  padding: 12px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar li {
+  display: inline;
+}
+
 .navbar a {
-  margin: 0 1em;
   text-decoration: none;
-  color: #333;
+  color: #ff69b4;
   font-weight: bold;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
+
 .navbar a:hover {
-  color: #007acc;
+  color: white;
+  background-color: #ff69b4;
+  padding: 6px 12px;
+  border-radius: 20px;
 }
+
 
