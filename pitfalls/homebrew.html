@@ -24,6 +24,10 @@
       .then(res => res.text())
       .then(md => {
         document.getElementById('content').innerHTML = marked.parse(md);
+      })
+      .catch(err => {
+        document.getElementById('content').innerText = 'Failed to load content.';
+        console.error(err);
       });
   </script>
 </body>

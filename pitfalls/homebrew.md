@@ -1,9 +1,9 @@
----
+<!--
 title: "macOS 安装 Homebrew 全流程（使用清华源）"
 date: 2025-06-11
 tags: [Homebrew, Mac, 清华镜像, 技术博客]
+-->
 
----
 
 # 💡 macOS 安装 Homebrew 全流程（避开官方脚本 + 使用清华镜像加速）【超详细实录】
 
