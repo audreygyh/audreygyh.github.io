@@ -94,4 +94,49 @@ p {
   border-radius: 20px;
 }
 
+/* ---- Home Page ---- */
+
+footer.quote {
+  margin-top: 60px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #888;
+  text-align: center;
+}
+
+section {
+  margin: 40px 0;
+  text-align: left;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #d63384;
+  margin-bottom: 12px;
+}
+
+.updates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.updates li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.updates a {
+  color: #d63384;
+  text-decoration: underline;
+}
+
+.skills .tags span {
+  display: inline-block;
+  background: #ffeaea;
+  color: #d63384;
+  margin: 6px 8px 0 0;
+  padding: 6px 14px;
+  border-radius: 18px;
+  font-size: 0.9rem;
+}
 
