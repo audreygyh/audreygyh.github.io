@@ -36,7 +36,7 @@ p {
 .nav-links a {
   display: inline-block;
   text-decoration: none;
-  color: #ff69b4;
+  color: #ff7cbe;
   font-weight: bold;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 1rem;
@@ -50,7 +50,7 @@ p {
 
 .nav-links a:hover {
   color: white;
-  background-color: #ff69b4;
+  background-color: #ff7cbe;
   transform: translateY(-2px);
 }
 
@@ -80,7 +80,7 @@ p {
 
 .navbar a {
   text-decoration: none;
-  color: #ff69b4;
+  color: #ff7cbe;
   font-weight: bold;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 1rem;
@@ -89,7 +89,7 @@ p {
 
 .navbar a:hover {
   color: white;
-  background-color: #ff69b4;
+  background-color: #ff7cbe;
   padding: 6px 12px;
   border-radius: 20px;
 }
