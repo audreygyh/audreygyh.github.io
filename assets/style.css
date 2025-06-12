@@ -110,8 +110,8 @@ section {
 }
 
 section h2 {
-  font-size: 1.5rem;
-  color: #d63384;
+  font-size: 1.2rem;
+  color: #ff7cbe;
   margin-bottom: 12px;
 }
 
@@ -126,14 +126,14 @@ section h2 {
 }
 
 .updates a {
-  color: #d63384;
+  color: #ff7cbe;
   text-decoration: underline;
 }
 
 .skills .tags span {
   display: inline-block;
-  background: #ffeaea;
-  color: #d63384;
+  background: #f2e2ce;
+  color: #ff7cbe;
   margin: 6px 8px 0 0;
   padding: 6px 14px;
   border-radius: 18px;
