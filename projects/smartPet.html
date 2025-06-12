@@ -2,39 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Projects</title>
+  <title>SmartPet Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
-    body {
-      background: #f9f9f9;
-    }
     .markdown-body {
       max-width: 800px;
-      margin: 3em auto;
+      margin: auto;
       padding: 2em;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-family: sans-serif;
     }
   </style>
 </head>
 <body>
   <main class="markdown-body" id="content">
-    Loading notes...
+    Loading content...
   </main>
 
-  <header>
-    <nav>
-        <a href="../index.html">Home</a> |
-        <a href="../notes/notes.html">Notes</a> |
-        <a href="../pitfalls/pitfalls.html">Pitfalls</a> |
-        <a href="projects.html">Projects</a>
-    </nav>
-  </header>
-
   <script>
-    fetch('projects.md')
+    fetch('smartPet.md')
       .then(res => res.text())
       .then(md => {
         document.getElementById('content').innerHTML = marked.parse(md);
