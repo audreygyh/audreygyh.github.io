@@ -35,19 +35,19 @@ p {
 }
 
 .nav-links a {
+  color: #555; /* 初始颜色 */
   text-decoration: none;
-  background: #fff;
-  padding: 0.8em 1.2em;
+  transition: all 0.2s ease;
+  padding: 8px 16px;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
-  font-size: 1.05em;
-  color: #444;
 }
+
 
 .nav-links a:hover {
   transform: translateY(-3px);
-  background: #ffeaea;
+  background-color: #ffeaea;
+  color: #d63384; /* 可爱紫粉色 */
+  text-decoration: none;
 }
 
 
