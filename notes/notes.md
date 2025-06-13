@@ -14,3 +14,4 @@
 
 - `git add -p` to stage in chunks
 - Use SSH instead of HTTPS for GitHub
+👉 [See full details](useGit.html)
